@@ -3,7 +3,8 @@ body, html{
 }
 body{
   margin: 0px;
-  background-color:#444;
+  background-image:url("disco1.jpg");
+  background-size: 100%;
   font-size: 18px;
 }
 body, a:link, a:visited, a:active{
@@ -22,6 +23,12 @@ body, a:link, a:visited, a:active{
 }
 .dancer{
   border:10px solid red;
+  border-radius:10px;
+  position:absolute;
+}
+.discoDancer{
+  border:1px solid black;
+  background: white;
   border-radius:10px;
   position:absolute;
 }
