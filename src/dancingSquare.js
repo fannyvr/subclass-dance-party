@@ -30,4 +30,5 @@ squareDancer.prototype.step = function(){
     $(this).fadeIn(1000);
 
   });
+  this.swap();
 };

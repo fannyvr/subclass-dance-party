@@ -7,7 +7,7 @@ describe("blinkyDancer", function() {
   beforeEach(function() {
     clock = sinon.useFakeTimers();
     blinkyDancer = new makeBlinkyDancer(10, 20, timeBetweenSteps);
-    blinkyDancer.setPosition(blinkyDancer.top, blinkyDancer.left);
+    //blinkyDancer.setPosition(blinkyDancer.top, blinkyDancer.left);
     //blinkyDancer.step();
 
   });
